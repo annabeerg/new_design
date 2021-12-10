@@ -1,0 +1,19 @@
+$font-color: rgb(255, 255, 255);
+$font-alternative-color: rgb(0, 0, 0);
+$accent-color: #8aa230;
+$background-color: #140e0b;
+$background-alternative-color: $accent-color;
+$darklogo-color: #805b46;
+$darklogo-color1: #805b46cb;
+$darklogo-color2: #805b469d;
+$darklogo-color3: #805b4680;
+$darklogo-color4: #805b4636;
+$lightlogo-color: $accent-color;
+$border-nav: $background-color;
+$nav-color: rgb(255, 255, 255);
+
+$main-font-size: 1em;
+$main-line-height: 1.4;
+$main-font-size: $main-font-size * $main-line-height;
+
+$filtering: grayscale(20%);

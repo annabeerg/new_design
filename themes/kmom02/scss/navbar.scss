@@ -1,0 +1,20 @@
+.nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    background-color: $lightlogo-color;
+    border-color: $background-color;
+    color: $nav-color;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+}
