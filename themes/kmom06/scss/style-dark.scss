@@ -1,0 +1,27 @@
+/*Variabler*/
+@import 'dark-variables';
+/*Normalize*/
+@import '../../node_modules/normalize.css/normalize';
+/*Code*/
+@import 'code';
+/*main*/
+@import 'main';
+/*Blockquotes*/
+@import 'blockquotes';
+/*Typography*/
+@import 'typography';
+/*navbar*/
+@import 'navbar';
+/*footer*/
+@import 'footer';
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Serif:ital,wght@1,700&family=Quicksand&display=swap');
+/*Externa moduler*/
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+/*technology*/
+@import 'technology';
