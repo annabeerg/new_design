@@ -11,7 +11,7 @@ body {
 }
 
 .logo {
-    display:inline-flex;
+    text-align: center;
 }
 
 .top {
@@ -19,8 +19,8 @@ body {
 }
 
 .logo {
-    flex-direction: column;
-    max-width: 67%;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 .display-gallery {

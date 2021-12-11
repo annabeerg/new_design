@@ -384,6 +384,7 @@ body {
 
 .logo {
   display: inline-flex;
+  float: right;
 }
 
 .top {
@@ -444,25 +445,19 @@ h6 {
 }
 
 /*navbar*/
-.nav ul li {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+.nav ul {
+  transition: 0.6s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-right: 2px dotted transparent;
+  padding: 30px 8px 30 10px;
+  width: 100%;
+  background-color: #805b46cb;
 }
 
-.nav li {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border-style: solid;
-  background-color: #8aa230;
-  border-color: #140e0b;
-  color: white;
-}
-
-.nav ul li a {
-  display: block;
-  padding: 0.5em 0;
+.nav ul li:hover {
+  border-right: 3px dotted #8f421e;
 }
 
 /*footer*/
@@ -6610,11 +6605,11 @@ readers do not read off random characters that represent icons */
 
 .technology-content .technology {
   height: 7em;
-  border: 0.5em solid #8aa230;
+  border: 0.5em solid #8f421e;
   border-style: ridge;
   padding: 1em;
   color: white;
-  background-color: #8aa230;
+  background-color: #8f421e;
   box-shadow: #805b46 5px 5px, #805b46cb 10px 10px, #805b469d 15px 15px, #805b4680 20px 20px, #805b4636 25px 25px;
 }
 

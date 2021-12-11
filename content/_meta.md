@@ -1,6 +1,6 @@
 ---
-Logo: image/annasmall.png
-Tagline: Portfolio för Anna Berg
+Logo: image/logonewnew.png
+Tagline: 
 Logo: 
 Social:
     - title: Link till sidans github repo.
